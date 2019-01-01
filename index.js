@@ -142,7 +142,7 @@ bot.on("message", message => {
 
     if (!message.member.hasPermission('MANAGE_CHANNELS')) {
       return message.channel.send(":x: You don't have permissions to close a channel. *MANAGE_CHANNELS is required*")
-    // }
+    }
   }
   if (command === "-designers") {
 
